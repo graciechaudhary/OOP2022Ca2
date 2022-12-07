@@ -4,30 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6d414b1-ff75-476a-a2e7-73c4b6619b3b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dkit/gd2/GracieChaudhary/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dkit/gd2/GracieChaudhary/CA2/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dkit/gd2/GracieChaudhary/CA2/BasicMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dkit/gd2/GracieChaudhary/CA2/BeefCow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dkit/gd2/GracieChaudhary/CA2/CreateEditMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dkit/gd2/GracieChaudhary/CA2/DairyCow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dkit/gd2/GracieChaudhary/CA2/Farm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dkit/gd2/GracieChaudhary/CA2/Goat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dkit/gd2/GracieChaudhary/CA2/Herd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dkit/gd2/GracieChaudhary/CA2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dkit/gd2/GracieChaudhary/CA2/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dkit/gd2/GracieChaudhary/CA2/Shed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dkit/gd2/GracieChaudhary/CA2/Sheep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dkit/gd2/GracieChaudhary/CA2/StartMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dkit/gd2/GracieChaudhary/CA2/TypesOfAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/dkit/gd2/GracieChaudhary/AppTest.java" afterDir="false" />
+    <list default="true" id="e6d414b1-ff75-476a-a2e7-73c4b6619b3b" name="Changes" comment="Classes, menu and main">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dkit/gd2/GracieChaudhary/CA2/IMilkable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dkit/gd2/GracieChaudhary/CA2/MilkTank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dkit/gd2/GracieChaudhary/CA2/MilkingMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dkit/gd2/GracieChaudhary/CA2/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dkit/gd2/GracieChaudhary/CA2/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dkit/gd2/GracieChaudhary/CA2/DairyCow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dkit/gd2/GracieChaudhary/CA2/DairyCow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dkit/gd2/GracieChaudhary/CA2/Farm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dkit/gd2/GracieChaudhary/CA2/Farm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dkit/gd2/GracieChaudhary/CA2/Goat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dkit/gd2/GracieChaudhary/CA2/Goat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dkit/gd2/GracieChaudhary/CA2/Herd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dkit/gd2/GracieChaudhary/CA2/Herd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dkit/gd2/GracieChaudhary/CA2/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dkit/gd2/GracieChaudhary/CA2/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dkit/gd2/GracieChaudhary/CA2/Shed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dkit/gd2/GracieChaudhary/CA2/Shed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dkit/gd2/GracieChaudhary/CA2/StartMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dkit/gd2/GracieChaudhary/CA2/StartMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dkit/gd2/GracieChaudhary/CA2/TypesOfAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dkit/gd2/GracieChaudhary/CA2/TypesOfAnimal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -54,14 +45,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dkit.gd2.GracieChaudhary.CA2.Main" />
@@ -90,8 +81,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670269270102</updated>
-      <workItem from="1670269272840" duration="18451000" />
+      <workItem from="1670269272840" duration="20463000" />
+      <workItem from="1670416013404" duration="14564000" />
     </task>
+    <task id="LOCAL-00001" summary="Classes, menu and main">
+      <created>1670288330534</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670288330534</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,5 +107,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Classes, menu and main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classes, menu and main" />
   </component>
 </project>

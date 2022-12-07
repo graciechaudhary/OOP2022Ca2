@@ -12,6 +12,10 @@ public class Herd {
         this.listofAnimals = listofAnimals;
     }
 
+    public ArrayList<Animal> getListofAnimals() {
+        return listofAnimals;
+    }
+
     @Override
     public String toString() {
         return "Herd{" +

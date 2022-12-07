@@ -10,7 +10,7 @@ public class Animal {
     private String name;
     public boolean canBeMilked;
 
-    private ArrayList<String> names;
+    private ArrayList<String> names = new ArrayList<>();
 
     private String[] namesList = {"Daniel", "Isha", "Sunflower", "Henry", "Tom", "Mugsy", "Precious", "Snuffles", "Teddy", "Justice", "Sophie", "Cody",
                     "Mollie", "Buddy", "Carbon", "Sky","Jerry", "Peanut", "Loki","Motu","Helipcopter", "Max", "Oreo", "Luna", "Pooh", "Milo", "Spike",

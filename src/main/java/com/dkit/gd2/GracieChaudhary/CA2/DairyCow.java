@@ -10,28 +10,48 @@ public class DairyCow extends Animal {
     private double udderCapacity;
     private int numTimesMilked;
     private double milkLeft;
-    private Random udderCapacityRandom;
 
-    public DairyCow(String name, double udderCapacity) {
+    private double milkOutEachTime;
+    private Random udderCapacityRandom =  new Random();
+    //private String animalType = String.valueOf(TypesOfAnimal.DAIRY_COW);
+
+    public DairyCow(String name) {
         super(name);
         this.udderCapacity = udderCapacityRandom.nextInt(21)+20;
         this.numTimesMilked = 0;
         this.milkLeft = udderCapacity;
         canBeMilked = true;
+        milkOutEachTime = (double) udderCapacity/5;
     }
 
-    public DairyCow(boolean canBeMilked, double udderCapacity) {
+    public DairyCow() {
         super();
         this.udderCapacity = udderCapacityRandom.nextInt(21)+20;
         this.numTimesMilked = 0;
         this.milkLeft = udderCapacity;
         canBeMilked = true;
+        milkOutEachTime = (double) udderCapacity/5;
     }
 
     public double getUdderCapacity() {
         return udderCapacity;
     }
 
+    public int getNumTimesMilked() {
+        return numTimesMilked;
+    }
+
+
+    public boolean getMilked(){
+        if(numTimesMilked<=5){
+            numTimesMilked++;
+            milkLeft = udderCapacity - numTimesMilked*milkOutEachTime;
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
 
     @Override
     public String

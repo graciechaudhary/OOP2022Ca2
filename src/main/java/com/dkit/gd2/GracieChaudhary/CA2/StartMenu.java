@@ -7,6 +7,7 @@ public enum StartMenu {
     MILK,
     COLLECT_MILK,
     STORE,
+    LOAD,
     DISPLAY,
     DISPLAY_HERD,
     BACK;

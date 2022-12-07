@@ -33,6 +33,17 @@ public class Goat extends Animal {
     }
 
 
+    public boolean getMilked(){
+        if(numTimesMilked<=1){
+            numTimesMilked++;
+            milkLeft = 0;
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+
     @Override
     public String
     toString() {

@@ -4,6 +4,8 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class Menu {
+
+    private Farm newFarm;
     Scanner keyboard = new Scanner(System.in);
     public Menu(){
 
@@ -52,11 +54,13 @@ public class Menu {
         Thread.sleep(500);
         System.out.println("\t 5. Store your Farm");
         Thread.sleep(500);
-        System.out.println("\t 6. Display your creations");
+        System.out.println("\t 6. Store your Farm");
         Thread.sleep(500);
-        System.out.println("\t 7. Display your different herds");
+        System.out.println("\t 7. Display your creations");
         Thread.sleep(500);
-        System.out.println("\t 8. Back to Menu");
+        System.out.println("\t 8. Display your different herds");
+        Thread.sleep(500);
+        System.out.println("\t 9. Back to Menu");
         System.out.println("--------------------------------------");
         //Thread.sleep(500);
         System.out.println("Enter: ");
@@ -64,13 +68,6 @@ public class Menu {
 
     }
 
-//    private void printAddMenu() throws InterruptedException {
-//        System.out.println("\nEnter: ");
-//        Thread.sleep(500);
-//        System.out.println("\t 1. Farm");
-//        Thread.sleep(500);
-//        System.out.println("\t 2. Animal");
-//    }
 
     private void printCreateEditMenu() throws InterruptedException {
 
@@ -152,6 +149,9 @@ public class Menu {
                     case STORE:
                         System.out.println(7);
                         break;
+                    case LOAD:
+                        System.out.println(7);
+                        break;
                     case DISPLAY:
                         System.out.println(2);
                         break;
@@ -194,6 +194,7 @@ public class Menu {
 
                  switch (selectedCreateOption){
                      case ANIMAL:
+                         newFarm.addAnimal();
                          break;
                      case SHED:
                          break;
@@ -260,15 +261,17 @@ public class Menu {
         }
     }
 
-//    private void callAddMenu(){
-//
-//    }
-
     private void createFarm(){
         System.out.println("\tEnter a name for your farm:");
         String name = keyboard.nextLine();
         System.out.println("\tEnter an owner for your farm");
         String owner = keyboard.nextLine();
-        Farm myFarm = new Farm(name,owner);
+        newFarm = new Farm(name,owner);
+    }
+
+    public Farm getFarm(){
+        return newFarm;
     }
 }
+
+
