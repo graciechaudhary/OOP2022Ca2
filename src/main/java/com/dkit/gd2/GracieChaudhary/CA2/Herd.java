@@ -5,22 +5,27 @@ import java.util.ArrayList;
 public class Herd {
 
     private String animalType;
-    private ArrayList<Animal> listofAnimals;
+    private ArrayList<Animal> listOfAnimals;
 
-    public Herd(String animalType, ArrayList<Animal> listofAnimals) {
+    public Herd(String animalType, ArrayList<Animal> listOfAnimals) {
         this.animalType = animalType;
-        this.listofAnimals = listofAnimals;
+        this.listOfAnimals = listOfAnimals;
     }
 
-    public ArrayList<Animal> getListofAnimals() {
-        return listofAnimals;
+    public String getAnimalType() {
+        return animalType;
+    }
+
+    public ArrayList<Animal> getListOfAnimals() {
+        return listOfAnimals;
     }
 
     @Override
     public String toString() {
         return "Herd{" +
-                "animalType='" + animalType + '\'' +
-                ", listofAnimals=" + listofAnimals +
+                "List of " + getAnimalType() + " :\n" + listOfAnimals +
                 '}';
     }
+
+
 }

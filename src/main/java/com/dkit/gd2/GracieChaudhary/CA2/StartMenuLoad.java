@@ -1,15 +1,12 @@
 package com.dkit.gd2.GracieChaudhary.CA2;
 
-public enum StartMenu {
+public enum StartMenuLoad {
     CONTINUE,
     ADD,
     EDIT,
     MILK,
     COLLECT_MILK,
-    STORE,
-
     DISPLAY,
     DISPLAY_HERD,
     BACK;
-
 }

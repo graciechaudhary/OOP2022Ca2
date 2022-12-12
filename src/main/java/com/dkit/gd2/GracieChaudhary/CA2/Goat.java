@@ -10,7 +10,7 @@ public class Goat extends Animal {
     private double udderCapacity;
     private int numTimesMilked;
     private double milkLeft;
-    private Random udderCapacityRandom;
+    private Random udderCapacityRandom =new Random();
 
 
     public Goat(String name) {
@@ -42,6 +42,11 @@ public class Goat extends Animal {
         else{
             return false;
         }
+    }
+
+    public double milk()
+    {
+        return udderCapacity;
     }
 
     @Override

@@ -4,5 +4,6 @@ public enum BasicMenu {
 
     CONTINUE,
     START,
+    LOAD,
     QUIT;
 }

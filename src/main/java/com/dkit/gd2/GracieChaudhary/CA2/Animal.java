@@ -35,6 +35,10 @@ public class Animal {
         return name;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public boolean isCanBeMilked() {
         return canBeMilked;
     }
@@ -44,7 +48,7 @@ public class Animal {
     }
 
     public void setRandomNameList(){
-        for(int i=0; i<=namesList.length;i++){
+        for(int i=0; i<namesList.length;i++){
             names.add(namesList[i]);
         }
     }

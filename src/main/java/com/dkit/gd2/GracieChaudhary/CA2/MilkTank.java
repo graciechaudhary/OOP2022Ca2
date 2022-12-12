@@ -8,22 +8,36 @@ public class MilkTank {
     private double tankCapacity;
     private double currentHolding;
 
-    public MilkTank(String animalType,double currentHolding) {
+    public MilkTank(String animalType) {
         id = ++tankId;
         this.animalType = animalType;
         tankCapacity = 2000;
-        this.currentHolding = currentHolding;
+        this.currentHolding = 0;
     }
 
-    public MilkTank(String animalType, double customCapacity,double currentHolding) {
+    public MilkTank(String animalType, double customCapacity) {
         id = ++tankId;
         this.animalType = animalType;
         this.tankCapacity = customCapacity;
-        this.currentHolding = currentHolding;
+        this.currentHolding = 0;
     }
 
     public int getId() {
         return id;
+    }
+
+    public void setTankCapacity(double tankCapacity) {
+       if(tankCapacity>1000) this.tankCapacity = tankCapacity;
+       else System.out.println("Tank capacity not adequate");
+    }
+
+    public double getCurrentHolding() {
+        return currentHolding;
+    }
+
+    public void setCurrentHolding(double currentHolding) {
+        if(currentHolding>=0 && currentHolding<tankCapacity) this.currentHolding = currentHolding;
+        else System.out.println("Tank capacity not adequate");
     }
 
     public String getAnimalType() {
@@ -72,9 +86,9 @@ public class MilkTank {
     @Override
     public String toString() {
         return "MilkTank{" +
-                "animalType = " + animalType +
-                ", tankCapacity=" + tankCapacity +
-                ", currentHolding=" + currentHolding +
+                "Tank is for: " + animalType +
+                ", Tank Capacity: " + tankCapacity +
+                ", Current Holding: " + currentHolding +
                 '}';
     }
 }
